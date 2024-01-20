@@ -10,12 +10,12 @@
     border:2px solid black;
     text-align:center;
 }
-@media(max-width:728px){
+@media(max-width:420px){
     .container{
         grid-template-columns:repeat(2,1fr);
     }
 }
-@media(min-width:420px){
+@media(min-width:728px){
     .container{
         grid-template-columns:repeat(3,1fr);
     }
